@@ -5,6 +5,10 @@ Based on: https://realpython.com/twitter-sentiment-python-docker-elasticsearch-k
 
 # Running latest Elastic Search and Kibana 6.4.2
 
+`docker pull docker.elastic.co/elasticsearch/elasticsearch:6.4.2`
+
+`docker pull docker.elastic.co/kibana/kibana:6.4.2`
+
 `sudo docker run                        \
   --name elasticsearch            \
   -p 9200:9200                    \
